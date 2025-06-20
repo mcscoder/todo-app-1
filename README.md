@@ -1,17 +1,62 @@
 # todo_app_1
 
-A new Flutter project.
+A simple Flutter application for managing your daily tasks.
+
+## Features
+
+- Add, ~~edit~~, and delete tasks (`edit` not implemented yet)
+- Mark tasks as completed
+- Persistent local storage
+- Responsive UI
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. **Clone the repository:**
+    ```bash
+    git clone git@github.com:mcscoder/todo-app-1.git
+    cd todo-app-1
+    ```
 
-A few resources to get you started if this is your first Flutter project:
+2. **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Running the App
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# todo-app-1
+You can run the app in different modes:
+
+- **Debug mode:**
+    ```bash
+    flutter run
+    ```
+    Debug mode is useful for development and troubleshooting, but performance may not reflect the final app.
+
+- **Release mode:** `recommended for preview application`
+    ```bash
+    flutter run --release
+    ```
+    Release mode provides better performance and is closer to what end users will experience. If you want to see how the app looks and performs in production, it's recommended to run in release mode.
+
+## Folder Structure
+
+```
+lib/
+  main.dart
+  models/
+  screens/
+  widgets/
+```
+
+## Dependencies
+
+- [Flutter](https://flutter.dev/)
+- [cupertino_icons](https://pub.dev/packages/cupertino_icons)
+- [drift](https://pub.dev/packages/drift)
+- [drift_flutter](https://pub.dev/packages/drift_flutter)
+- [path_provider](https://pub.dev/packages/path_provider)
+
+**Dev dependencies:**
+- [flutter_test](https://pub.dev/packages/flutter_test)
+- [drift_dev](https://pub.dev/packages/drift_dev)
+- [build_runner](https://pub.dev/packages/build_runner)
