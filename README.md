@@ -5,7 +5,8 @@ A simple Flutter application for managing your daily tasks.
 ## Features
 
 - Add, ~~edit~~, and delete tasks (`edit` not implemented yet)
-- Mark tasks as completed
+- Mark tasks as completed or finished
+- Search tasks
 - Persistent local storage
 - Responsive UI
 
@@ -46,6 +47,8 @@ lib/
   models/
   screens/
   widgets/
+  assets/
+  database/
 ```
 
 ## Dependencies
